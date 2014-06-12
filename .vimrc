@@ -1,8 +1,21 @@
-"--- pathogen(loads the plugins)
-execute pathogen#infect()
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'kien/ctrlp.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'majutsushi/tagbar'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'bling/vim-airline'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'digitaltoad/vim-jade'
+Plugin 'groenewege/vim-less'
+Plugin 'honza/vim-snippets'
+call vundle#end()
 filetype plugin indent on
-"--- End pathogen
-
 "--- Theme
 set colorcolumn=85
 color xoria256

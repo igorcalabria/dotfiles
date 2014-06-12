@@ -1,9 +1,12 @@
 #!/bin/bash
+realpath() {
+    [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
 ln -s "$(realpath .vimrc)" "$HOME/"
 ln -s "$(realpath .tmux.conf)" "$HOME/"
-ln -s "$(realpath .tmuxline.conf)" "$HOME/"
 ln -s "$(realpath .zshrc)" "$HOME/"
 ln -s "$(realpath zsh-custom/ninja)" "$HOME/.oh-my-zsh/custom/plugins/"
-ln -s "$(realpath .vim/)" "$HOME/"
 ln -s "$(realpath .gitconfig)" "$HOME/"
 ln -s "$(realpath .gitignore_global)" "$HOME/"
+ln -s "$(realpath .vim/)" "$HOME/.vim"
