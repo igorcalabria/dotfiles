@@ -1,5 +1,5 @@
 # ...
-![alt tag](https://github.com/igorcalabria/dotfiles/master/dat.jpg)
+![Alt image](./dat.jpg?raw=true)
 ```sh
 ./install
 ```
