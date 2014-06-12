@@ -1,0 +1,8 @@
+[user]
+	email = igor.calabria@gmail.com
+	name = Igor Calabria
+[color]
+	ui = auto
+[core]
+	editor = vim
+	excludesfile = /home/igor/.gitignore_global

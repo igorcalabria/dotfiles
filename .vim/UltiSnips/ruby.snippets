@@ -1,0 +1,30 @@
+clearsnippets (de)?f
+snippet g "gem"
+gem '${1}'${0}
+endsnippet
+
+snippet req "Description" !
+require '${1}'${0}
+endsnippet
+
+snippet it "it should" !
+it '${1}' do
+	${0}
+end
+endsnippet
+
+snippet cont "context do" !
+context '${1}' do
+	${0}
+end
+endsnippet
+
+snippet flash "flash notice" !
+flash[:notice] = '${1}'${0}
+endsnippet
+
+snippet descm "describe method" !
+describe '${1}' do
+	${0}
+end
+endsnippet
