@@ -15,6 +15,8 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'groenewege/vim-less'
 Plugin 'honza/vim-snippets'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Lokaltog/vim-easymotion'
 call vundle#end()
 filetype plugin indent on
 "--- Theme
@@ -146,4 +148,9 @@ let g:ctrlp_custom_ignore = {
 
 "--- vim-gitgutter
 highlight clear SignColumn
+let g:gitgutter_sign_added = '++'
+let g:gitgutter_sign_modified = '~~'
+let g:gitgutter_sign_removed = '--'
+let g:gitgutter_sign_removed_first_line = '^^'
+let g:gitgutter_sign_modified_removed = 'ww'
 "--- Ends vim-gitgutter
