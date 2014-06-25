@@ -14,6 +14,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'groenewege/vim-less'
 Plugin 'honza/vim-snippets'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 filetype plugin indent on
 "--- Theme
@@ -107,6 +108,7 @@ set noswapfile
 set t_Co=256
 set winminheight=0
 set winminwidth=0
+set updatetime=750
 "--- Plugin stuff below...
 
 "---- Indent guides
@@ -141,3 +143,7 @@ let g:ctrlp_custom_ignore = {
   \ 'link': '',
   \ }
 "--- End Ctrlp
+
+"--- vim-gitgutter
+highlight clear SignColumn
+"--- Ends vim-gitgutter
