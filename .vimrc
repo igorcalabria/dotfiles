@@ -17,6 +17,7 @@ Plugin 'honza/vim-snippets'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-easymotion'
+Plugin 'SirVer/ultisnips'
 call vundle#end()
 filetype plugin indent on
 "--- Theme
