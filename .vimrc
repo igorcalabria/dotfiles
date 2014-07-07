@@ -18,10 +18,11 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'SirVer/ultisnips'
+Plugin 'mileszs/ack.vim'
 call vundle#end()
 filetype plugin indent on
 "--- Theme
-set colorcolumn=85
+set colorcolumn=80
 color xoria256
 "--- End Theme
 
