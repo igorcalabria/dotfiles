@@ -19,6 +19,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'SirVer/ultisnips'
 Plugin 'mileszs/ack.vim'
+Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-surround'
 call vundle#end()
 filetype plugin indent on
 "--- Theme
