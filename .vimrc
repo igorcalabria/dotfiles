@@ -21,6 +21,7 @@ Plugin 'SirVer/ultisnips'
 Plugin 'mileszs/ack.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-surround'
+Plugin 'jpalardy/vim-slime'
 call vundle#end()
 filetype plugin indent on
 "--- Theme
