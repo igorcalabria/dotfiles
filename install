@@ -4,3 +4,4 @@ realpath() {
 }
 
 ln -s "$(realpath .ideavimrc)" "$HOME/"
+ln -s "$(realpath .bash_aliases)" "$HOME/"
